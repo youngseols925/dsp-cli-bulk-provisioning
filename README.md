@@ -55,13 +55,19 @@ Datasphere Tenant에서 OAuth Client를 생성합니다.
 경로
 
 ```
-System → Administration → App Integration → OAuth Clients
+System → Administration → App Integration → OAuth Clients → +Add an OAuth Client
 ```
 
 생성 시 필요한 정보
 
 | 항목 | 설명 |
 |---|---|
+| Name | OAuth Client 명 (예: OAuth for CLI) |
+| Purpose | Interactive Usage |
+| Redirect URI | https://localhost:8080 |
+
+생성 후에 반드시 Secret key를 별도로 저장해 놓아야 하며, 생성 화면을 벗어나게 되면 새로운 OAuth Client를 다시 생성하지 않는 한 해당 Secret key를 다시 받을 수 없습니다.
+
 | Client ID | CLI 인증용 |
 | Client Secret | CLI 인증용 |
 | Authorization URL | Tenant 인증 URL |
