@@ -68,6 +68,8 @@ System → Administration → App Integration → OAuth Clients → +Add an OAut
 
 생성 후에 반드시 Secret key를 별도로 저장해 놓아야 하며, 생성 화면을 벗어나게 되면 새로운 OAuth Client를 다시 생성하지 않는 한 해당 Secret key를 다시 받을 수 없습니다.
 
+| 항목 | 설명 |
+|---|---|
 | Client ID | CLI 인증용 |
 | Client Secret | CLI 인증용 |
 | Authorization URL | Tenant 인증 URL |
