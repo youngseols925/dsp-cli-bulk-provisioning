@@ -123,10 +123,8 @@ datasphere secrets show
 
 # 6. CLI 초기화
 
-Tenant service document 다운로드
-
 ```bash
-datasphere config cache init   --host https://<tenant>.hcs.cloud.sap   --secrets-file secrets.json
+datasphere config cache init   --host https://<tenant>.ap12.hcs.cloud.sap   --secrets-file secrets.json
 ```
 
 ---
