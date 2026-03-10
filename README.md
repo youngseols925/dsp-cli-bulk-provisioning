@@ -2,6 +2,7 @@
 # SAP Datasphere CLI 기반 Bulk Provisioning 사용 가이드
 
 본 문서는 SAP Datasphere CLI를 사용하여 **사용자, Space, Role을 자동으로 생성 및 할당하는 Python 스크립트**를 실행하기 위한 환경 구성 및 실행 방법을 설명합니다.
+(https://www.npmjs.com/package/@sap/datasphere-cli#from-the-command-line:)
 
 본 자동화 스크립트는 다음 작업을 수행합니다.
 
