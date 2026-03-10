@@ -113,8 +113,9 @@ datasphere secrets show
 
 ```json
 {
- "tenantUrl": "https://mytenant.ap12.hcs.cloud.sap",
- "access_token": "<access token>"
+  "clientid": ".....",
+  "clientsecret": ".....",
+  "url": "https://mytenant.ap12.hcs.cloud.sap"
 }
 ```
 
