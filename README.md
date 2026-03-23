@@ -1,5 +1,5 @@
 
-# SAP Datasphere에서 CLI 기반 Space, User, Role Bulk 생성스크립트 사용 가이드
+# SAP Datasphere CLI 기반 Space, User, Role Bulk 생성 스크립트 사용 가이드
 
 본 문서는 SAP Datasphere Command Line Interface(CLI)를 사용하여 **사용자, Space, Role을 자동으로 생성 및 할당하는 Python 스크립트**를 실행하기 위한 환경 구성 및 실행 방법을 설명합니다.
 (https://www.npmjs.com/package/@sap/datasphere-cli#from-the-command-line:)
